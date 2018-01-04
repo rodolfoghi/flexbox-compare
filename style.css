@@ -1,0 +1,44 @@
+h1 {
+  clear: both;
+}
+
+.card {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  margin: 20px;
+}
+
+.float {
+  width: 100%;
+}
+
+.float .card {
+  display: inline-block;
+}
+
+.float .card:first-child {
+  float: left;
+}
+
+.float .card:last-child {
+  float: right;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.absolute .card {
+  position: absolute;
+}
+
+.absolute .card:first-child {
+  left: 0;
+}
+
+.absolute .card:last-child {
+  right: 0;
+}
